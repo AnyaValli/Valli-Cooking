@@ -1,0 +1,77 @@
+
+    body {
+        font-family: Montserrat, Arial, sans-serif;
+        background-color:blanchedalmond;
+        background: linear-gradient(#faf9bf,#f5c1ea,#faf9bf);
+        background-repeat: repeat-y;
+        align-items: center;
+        color: #69154a;
+        font-weight: 500;
+
+    }
+
+    p {
+        text-align: center;
+    }
+
+    h1 {
+        
+        font-family: 'Inspiration', cursive;
+        font-size: 90px;
+        text-align: center;
+        color: #ba2081;
+        border-color: #69154a;
+        border-width: 2px;
+    }
+
+    h2 {
+        text-align: center;
+        font-size: 30px;
+        color: #ba2081
+    }
+
+    h3 {
+        text-align: center;
+    }
+
+    h4 {
+        text-align: center;
+        
+    }
+
+    h5 {
+        text-align: center;
+    }
+    
+    #Ingredients {
+        text-align: center;
+        color: #ba2081
+    }
+
+    ul{
+        text-align:center;
+        padding-left: 0;
+        list-style-position: inside;
+    }
+
+    ol{
+        text-align:center;
+        padding-left: 0;
+        list-style-position: inside;
+    }
+
+    .list-headers {
+        color: #ba2081;
+        font-family: 'Inspiration', cursive;
+        font-size: 40px;
+    }
+
+    .pictures {
+        border-radius: 10%;
+        border-style: solid;
+        border-width: 10px;
+        border-color: #69154a;
+        max-width: 30%;
+        height:auto
+
+    }

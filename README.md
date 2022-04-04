@@ -1,2 +1,2 @@
 # ValliCooking
-A website hosting a wide range of vegan cooking recipies
+A website hosting a wide range of vegan cooking recipies used by my husband and I. As the website is currently being used as a personal resource, the recipes have been divided by my name, and his, for ease of access. I plan to create a second version that would be more suitable for general use (removing "Anya's Recipes" and "Elliot's Recipes". Placeholder images are also quite light-hearted (cat photos!), so will make these more appropriate for general use.

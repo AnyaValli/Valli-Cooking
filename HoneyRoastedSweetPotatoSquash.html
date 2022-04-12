@@ -19,6 +19,13 @@
     </header>
 
     <body>
+
+        <div class="topnav">
+
+            <a href="index.html">Home</a>
+            
+        </div>
+        
         <h1>Honey-roasted sweet potato and squash with halloumi
         </h1>
         <p>
@@ -59,8 +66,7 @@
             <h3>Method</h3>
             </div>
             <ol>
-                <li>Preheat the oven to 180C.</li><br>
-                <li>Put the wedges into a mixing bowl and then drizzle with the maple syrup, olive and sesame oil. Toss everything together so that they are coated in the oil. Season with salt and pepper, add the garlic and chillies and roast in the oven for 45 minutes. Check on them once or twice and toss them round a bit.
+                <li id="temp">Put the wedges into a mixing bowl and then drizzle with the maple syrup, olive and sesame oil. Toss everything together so that they are coated in the oil. Season with salt and pepper, add the garlic and chillies and roast in the oven for 45 minutes. Check on them once or twice and toss them round a bit.
                 </li><br>
                 <li>10 mins before the veg is ready, fry the cous cous in some oil until it turns golden. Then add white wine, then Boullion and gently simmer until absorbed.</li><br>
                 <li>Once the vegetables are fork tender, add the cheese and roast for a further 10 minutes (halloumi) or until it starts to melt (feta). Bowl up, then pour any remaining juices into the cous cous and allow to absorb before adding to bowls.</li><br>
@@ -69,17 +75,22 @@
         </p>
 
     </body>
+
+    
+<script type="text/javascript"> 
+
+    //Celsius to Fahrenheit converter, adjust x to recipe Celsius value
+
+    const x = 180;
+    const Celsius = x;
+    const y = Celsius *(1.8) + 32;
+    console.log(y);
+    const Fahrenheit = Math.round(y/5) * 5;
+    console.log("Set your oven to "+ Celsius + "C/" + Fahrenheit + "F");
+  
+    var celsiustoFahrenheit = document.createTextNode("Set your oven to " + Celsius + "°C/"  + Fahrenheit + "°F. ");
+    temp.prepend(celsiustoFahrenheit);
+    
+    </script>
 </html>
-
-
-
-1.            
-
-2.            
-3.            
-
-4.            
-
-5.            
-
  

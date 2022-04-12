@@ -18,6 +18,13 @@
     </header>
 
     <body>
+        
+        <div class="topnav">
+
+            <a href="index.html">Home</a>
+            
+        </div>
+
         <h1>Spanakopiata</h1>
         <p>
             <img class="pictures" src="Cooking Pics/Sookieeyes.jpg">
@@ -49,8 +56,7 @@
             <h3>Method</h3>
             </div>
             <ol>
-                <li>Preheat the oven to 175 C.</li><br>
-                <li>In a skillet brown the scallions and white onion in olive oil or broth until soft, about 2 minutes</li><br>
+                <li id="temp">In a skillet brown the scallions and white onion in olive oil or broth until soft, about 2 minutes</li><br>
                 <li>Add spinach, salt and pepper and sauté until wilted, about 5 minutes. Turn off the heat.</li><br>
                 <li>Once the spinach is cool, take handfuls and squeeze it out over the sink until as much liquid as you can is removed. Place each handful in a large mixing bowl once you're done.</li><br>
                 <li>To the spinach, add the vegan feta cheese, chopped onion, minced garlic, parsley, mint, lemon zest, nutmeg and pepper. Mix it all together really well.</li><br>
@@ -66,4 +72,21 @@
         </p>
 
     </body>
+
+    
+<script type="text/javascript"> 
+
+    //Celsius to Fahrenheit converter, adjust x to recipe Celsius value
+
+    const x = 180;
+    const Celsius = x;
+    const y = Celsius *(1.8) + 32;
+    console.log(y);
+    const Fahrenheit = Math.round(y/5) * 5;
+    console.log("Set your oven to "+ Celsius + "C/" + Fahrenheit + "F");
+  
+    var celsiustoFahrenheit = document.createTextNode("Set your oven to " + Celsius + "°C/"  + Fahrenheit + "°F. ");
+    temp.prepend(celsiustoFahrenheit);
+    
+    </script>
 </html>

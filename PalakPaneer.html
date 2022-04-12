@@ -18,6 +18,13 @@
     </header>
 
     <body>
+        
+        <div class="topnav">
+
+            <a href="index.html">Home</a>
+            
+        </div>
+
         <h1>Palak Paneer</h1>
         <p>
             <img class="pictures" src="Cooking Pics/Sookieeyes.jpg">
@@ -66,7 +73,7 @@
             </div>
             <ol>
                 <li>The night before, make your tofu marinade. Mix the nutritional yeast, lemon juice, olive oil, garam masala and salt together in a large bowl to form a paste. Drain the tofu and cut it into bite sized cubes then toss them in the marinade until they are well coated. Set aside for 30 minutes to marinate. (It can be baked right away if you don't have time).</li><br>
-                <li>Preheat the oven to 180°C. Spread the tofu out on a baking parchment lined baking sheet and bake for 20-30</li><br>
+                <li id="temp">Spread the tofu out on a baking parchment lined baking sheet and bake for 20-30</li><br>
                 <li>Blend the spinach until it is finely chopped. Set aside.</li><br>
                 <li>Heat the oil in a large pan over a low heat and add the cumin seeds. Cook for a couple of minutes until they are fragrant then add the finely chopped onion. Cook gently for about 10 minutes until the onion is soft and translucent. If it starts to catch on the bottom of the pan you can add a splash of water to stop it sticking.
                 </li><br>
@@ -80,5 +87,19 @@
             </ol>
         </p>
 
+        <script type="text/javascript"> 
+            //Celsius to Fahrenheit converter, adjust x to recipe Celsius value
+        
+            const x = 180;
+            const Celsius = x;
+            const y = Celsius *(1.8) + 32;
+            console.log(y);
+            const Fahrenheit = Math.round(y/5) * 5;
+            console.log("Set your oven to "+ Celsius + "C/" + Fahrenheit + "F");
+          
+            var celsiustoFahrenheit = document.createTextNode("Set your oven to " + Celsius + "°C/"  + Fahrenheit + "°F. ");
+            temp.prepend(celsiustoFahrenheit);
+            
+            </script>
     </body>
 </html>

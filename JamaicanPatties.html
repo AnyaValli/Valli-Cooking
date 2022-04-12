@@ -12,12 +12,19 @@
 
 </head>
 
-
+<!--Celsius to Fahrenheit converter at bottom of page-->
     <header>
         <title>Vegan Jamaican-style patties</title>
     </header>
 
     <body>
+        
+        <div class="topnav">
+
+            <a href="index.html">Home</a>
+            
+        </div>
+
         <h1>Vegan Jamaican-style patties</h1>
         <p>
             <img class="pictures" src="Cooking Pics/Jamaican-style patties.jpg">
@@ -86,8 +93,7 @@
             </div>
 
                  <ol>
-                     <li>Pre heat your oven to 190C.</li><br>
-                    <li>Cook the celery seed and oil on medium high in a pan: make sure they do not burn. You simply want them to release their flavour.</li><br>
+                    <li id="temp">Cook the celery seed and oil on medium high in a pan: make sure they do not burn. You simply want them to release their flavour.</li><br>
                     <li>After 1 minute, add the onions and stir frequently</li><br>
                     <li>When your onions start to brown, add boiling water (about 3 splashes) to help them caramelize</li><br>
                     <li>Once the water evaporates, add 2 tbsp rum</li><br>
@@ -114,4 +120,20 @@
                  </ol>
         </p>
     </body>
+
+    <script type="text/javascript"> 
+
+    //Celsius to Fahrenheit converter, adjust x to recipe Celsius value
+
+    const x = 190;
+    const Celsius = x;
+    const y = Celsius *(1.8) + 32;
+    console.log(y);
+    const Fahrenheit = Math.round(y/5) * 5;
+    console.log("Set your oven to "+ Celsius + "C/" + Fahrenheit + "F");
+  
+    var celsiustoFahrenheit = document.createTextNode("Set your oven to " + Celsius + "°C/"  + Fahrenheit + "°F. ");
+    temp.prepend(celsiustoFahrenheit);
+    
+    </script>
 </html>

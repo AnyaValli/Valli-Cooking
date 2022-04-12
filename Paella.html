@@ -18,6 +18,13 @@
     </header>
 
     <body>
+
+        <div class="topnav">
+
+            <a href="index.html">Home</a>
+            
+        </div>
+        
         <h1>Paella</h1>
         <p>
             <img class="pictures" src="Cooking Pics/Paella.jpg">
@@ -52,6 +59,7 @@
             </div>
             <ol>
                 <li>To marinate tofu, cube, and pour over he brine from the jar of Spanish olives. Cover it and set it aside for at least a half hour, preferably 1 hour.</li><br>
+                <li id="temp"></li><br>
                 <li>When you're ready to start cooking, place your tofu in a single layer on a lined baking tray and bake 30 minutes at 180C, flipping once halfway through. You can also air fry your tofu if you wish.</li><br>
                 <li>Now, cook your Paella. Start by sauteing your onions in a splash of water over high heat. Cook until translucent and the edges are lightly browned, about 4 minutes. Add your bell peppers and saute another minute, again adding a splash of water if they are sticking too much. Now add the rice, broth, tomatoes, mushrooms, and spices. Turn the heat down to medium high.</li><br>
                 <li>Cook all the liquid down, similar to risotto- this will take around 30 to 40 mins. When almost all the liquid is absorbed add your peas, tofu, olives, and artichoke hearts. Stir gently and let it cook uncovered for a few minutes.</li>
@@ -61,4 +69,21 @@
         </p>
 
     </body>
+
+    <script type="text/javascript"> 
+        //Celsius to Fahrenheit converter, adjust x to recipe Celsius value
+    
+        const x = 180;
+        const Celsius = x;
+        const y = Celsius *(1.8) + 32;
+        console.log(y);
+        const Fahrenheit = Math.round(y/5) * 5;
+        console.log("Set your oven to "+ Celsius + "C/" + Fahrenheit + "F");
+
+       
+    
+        var myHeader = document.getElementById("temp");
+        myHeader.innerHTML = "Set your oven to " + Celsius + "°C/"  + Fahrenheit + "°F, while preparing the rest of the ingredients."
+        </script>
+
 </html>

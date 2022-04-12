@@ -18,6 +18,13 @@
     </header>
 
     <body>
+
+        <div class="topnav">
+
+            <a href="index.html">Home</a>
+            
+        </div>
+        
         <h1>Caribbean Sweet Potatoes with Coconut Rice & Mango Salsa</h1>
         <p>
             <img class="pictures" src="Cooking Pics/CaribbeanSP.jpg">
@@ -47,7 +54,7 @@
             <h3>Method</h3>
             </div>
             <ol>
-                <li>Preheat the oven to 220c . Place sweet potato wedges in a large bowl and toss with 1.5 Tbsp vegetable oil, jerk seasoning, and a pinch of salt. Roast 20 minutes, turning halfway through.</li><br>
+                <li id="temp"> Place sweet potato wedges in a large bowl and toss with 1.5 Tbsp vegetable oil, jerk seasoning, and a pinch of salt. Roast 20 minutes, turning halfway through.</li><br>
                 <li>In a medium saucepan over medium-high heat with 2 tsp oil, saute half the minced onion and half the minced garlic. Cook until softened, 3 to 5 minutes. Add the rice, coconut milk, 1 tsp salt, and 2/3 cup water. Bring to a boil, reduce heat to low, cover, and cook until water is absorbed, 12 to 15 minutes.</li><br>
                 <li>  Combine the remaining minced onion, minced garlic, diced mango, cilantro, juice from the lime and 1/2 tsp salt in a bowl.</li><br>
                 <li>When the rice has finished cooking, stir in the lime zest and kidney beans.</li><br>
@@ -56,4 +63,19 @@
         </p>
 
     </body>
+
+    <script>
+        //Celsius to Fahrenheit converter, adjust x to recipe Celsius value
+        
+        const x = 220;
+            const Celsius = x;
+            const y = Celsius *(1.8) + 32;
+            console.log(y);
+            const Fahrenheit = Math.round(y/5) * 5;
+            console.log("Set your oven to "+ Celsius + "C/" + Fahrenheit + "F");
+          
+            var celsiustoFahrenheit = document.createTextNode("Set your oven to " + Celsius + "°C/"  + Fahrenheit + "°F. ");
+            temp.prepend(celsiustoFahrenheit);
+            
+    </script>
 </html>

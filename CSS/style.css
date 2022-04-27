@@ -40,5 +40,74 @@
         
     }
 
+    .topnav {
+        background-color:#f5c1ea;
+        overflow: hidden;
+        outline: 1px #69154a solid;
+        display: block;
     
+} 
+
+.dropdownMenu{
+    position: relative;
+     display: inline-block;
+
+}
+.dropbutton{
+    background-color:#f5c1ea;
+    color: #69154a;
+    padding: 15px;
+    font-size: 20px;
+    width: 210px;
+    font-family: Montserrat, Arial, sans-serif;
+    font-weight: 500;
+    v
+    
+    
+}
+
+
+/*Container to position where the dropdown content goes*/
+.drop-position {
+    position: relative;
+    display: inline-block;
+}
+
+/* Hides dropdown content until hover*/
+.dropdown-content {
+    display: none;
+    position: absolute;
+    width: 210px;
+    z-index: 1;
+    overflow: hidden;
+    
+    
+  }
+
+/*Link appearance in dropdown*/
+.dropdown-content a {
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  background-color: #faf9bf;
+  color: #69154a;
+  border-left: 5px #69154a solid;
+  border-right: 5px #69154a solid;
+  border-bottom: 5px #69154a solid;
+ 
+}
+
+/*Hover effect on dropdown*/
+.dropdown-content a:hover{
+    background-color: #f5c1ea;
+    text-shadow: #69154a;
+}
+
+.show {
+  display:block;
+}
+
+/* Show the dropdown menu on hover */
+.dropdownMenu:hover .dropdown-content {display: block;}
+
 

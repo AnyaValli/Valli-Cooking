@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <headContent-component></headContent-component>
+        
+        <script src="../Components/navbar.js"></script>
+    
+        <script src="../Components/headcontent.js"></script>
+    
+        <link rel="stylesheet" href="../CSS/VCstyle.css">
+        
+        <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    
+    </head>
+
+
+    <header>
+        <title>Valli Cooking: Risotto Primavera</title>
+    </header>
+
+    
+    <body>
+
+        <navbar-component></navbar-component>
+        
+        <h1>Risotto Primavera</h1>
+        <p>
+            <img class="pictures" src="Cooking Pics/Sookieeyes.jpg">
+            <h2>Cook time: 1 hour</h2>
+        </p>
+        
+        <p>
+            <div class="list-headers">
+            <h3>Ingredients</h3>
+            </div>
+            <ul>
+                <li>1tbsp olive oil</li>
+                <li>75 butter</li>
+                <li>1 onion, finely chopped</li>
+                <li>1 celery stick, finely chopped</li>
+                <li>1 carrot, finely chopped</li>
+                <li>3 garlic gloves, crushed</li>
+                <li>125g asparagus spears</li>
+                <li>750ml vegetable stock</li>
+                <li>175g risotto rice</li>
+                <li>100ml dry white wine</li>
+                <li>1 can broad beans</li>
+                <li>75g peas</li>
+                <li>1 bag vegan parmesan</li>
+                <li>1 sprig mint, finely chopped</li>
+                <li>1 sprig dill, finely chopped</li>
+                <li>1 sprig parsley, finely chopped</li>
+                <li>salt and pepper, to taste</li>
+
+               
+            </ul>
+            </div>
+        </p>
+        <p>
+            <div class="list-headers">
+            <h3>Method</h3>
+            </div>
+            <ol>
+                <li>Heat the oil and 50g of the butter in a large, heavy-based saucepan. Add the onion, celery, carrot and garlic and cook, stirring occasionally, over a low heat for 10 minutes, or until soft but not coloured.</li><br>
+                <li>Meanwhile, chop the woody ends from the asparagus spears and discard. Slice each spear on the diagonal into 4cm/ pieces. Pour the stock into a separate saucepan and bring to a simmer.</li><br>
+                <li>Add the rice to the softened vegetables and stir until coated in the butter and oil. Cook for a few minutes, then pour in the wine and keep stirring for 1 to 2 minutes, or until the liquid has evaporated.</li><br>
+                <li>Add the vegetable stock one ladleful at a time, stirring until all the liquid has been absorbed before adding more stock. Just before you finish using all of the stock, add the broad beans and petits pois to the rice and season with salt and pepper. At the same time, drop the asparagus into the remaining stock and simmer until al dente, then lift out using a slotted spoon and add to the rice.</li><br>
+                <li>Continue cooking until all of the stock has been absorbed and the rice grains are al dente. Take the pan off the heat and stir in 25g of the Parmesan and the remaining butter. Put the lid on the pan and leave for 5 minutes. Stir in the chopped herbs.</li><br>
+                <li>Spoon onto plates and scatter over the remaining Parmesan. Serve immediately.</li><br>
+               
+            </ol>
+        </p>
+
+    </body>
+
+    <script> 
+
+        //Celsius to Fahrenheit converter, adjust x to recipe Celsius value
+    
+        const x = //CHANGEME;
+        const Celsius = x;
+        const y = Celsius *(1.8) + 32;
+        console.log(y);
+        const Fahrenheit = Math.round(y/5) * 5;
+        console.log("Set your oven to "+ Celsius + "C/" + Fahrenheit + "F");
+      
+        var celsiustoFahrenheit = document.createTextNode("Set your oven to " + Celsius + "°C/"  + Fahrenheit + "°F. ");
+        temp.prepend(celsiustoFahrenheit);
+        
+        </script>
+
+</html>

@@ -1,15 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inspiration&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500" rel="stylesheet">
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <link rel="stylesheet" href="CSS/VCstyle.css">
-    <meta http-equiv="Pragma" content="no-cache">
-    
+    <headContent-component></headContent-component>
 
+    <script src="../Components/navbar.js"></script>
+
+    <script src="../Components/headcontent.js"></script>
+
+    <link rel="stylesheet" href="../CSS/VCstyle.css">
+    
 </head>
 
 
@@ -17,28 +16,12 @@
         <title><!--Replace with recipe name--></title>
     </header>
     
-    <div class="topnav">
-        <a href="AllRecipes.html">All Recipes</a>
-        <a href="#news">Elliot's Recipes</a>
-        <a href="#">Anya's Recipes</a>
-        <div class="dropdown">
-          <button class="dropbtn">Cuisine </button>
-          <div class="dropdown-content">
-            <a href="#">Asian</a>
-            <a href="#">Baking</a>
-            <a href="#">Indian</a>
-            <a href="#">Italian</a>
-            <a href="#">Jamaican</a>
-            <a href="#">Mediterranian</a>
-          </div>
-        </div>
-      </div>
-
+    <navbar-component></navbar-component>
     
     <body>
         <h1><!--Replace with recipe name--></h1>
         <p>
-            <img class="pictures" src="Cooking Pics/Sookieeyes.jpg">
+            <img class="pictures" src="../Cooking Pics/Sookieeyes.jpg">
             <h2>Cook time: <!--Replace with cook time--></h2>
         </p>
         

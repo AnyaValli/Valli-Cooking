@@ -1,0 +1,144 @@
+body {
+  font-family: Montserrat, Arial, sans-serif;
+  background-color:blanchedalmond;
+  background: linear-gradient(#faf9bf,#f5c1ea,#faf9bf);
+  background-repeat: repeat-y;
+  color: #69154a;
+  font-weight: 500;
+
+}
+
+h2 {
+  font-size: 30px;
+  color: #ba2081;
+  text-align: center;
+}
+
+.header {
+  font-family: 'Inspiration', cursive;
+  font-size: 250%;
+  color: #ba2081;
+  padding: 1px;
+  text-align: center;
+  border-color: #69154a;
+  border-width: 5px;
+  border-style: solid;
+ 
+}
+
+/*topnav*/
+
+/* topnav container */
+.topnav {
+  overflow: hidden;
+  background-color: #f5c1ea;
+  border: #69154a;
+  border-style: solid;
+  border-width: 5px;
+  border-top-width: 0px;
+  border-left-width: 5px;
+  border-right-width: 5px;
+  display: block;
+}
+
+/* Links inside the topnav */
+.topnav a {
+  float: left;
+  font-size: 16px;
+  color:#69154a;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* The dropdown container */
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color:#69154a;
+  font-weight: 500;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+/* Navigation bar behaviour on hover*/
+.topnav a:hover, .dropdown:hover .dropbtn {
+  background-color:#faf9bf;
+}
+
+/* Dropdown box background */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #faf9bf;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px #69154a (0,0,0,0.5);
+  z-index: 1;
+}
+
+/* Text in the dropdown */
+.dropdown-content a {
+  float: none;
+  color: #69154a;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+
+}
+
+/* Hover behaviour of links in dropdown */
+.dropdown-content a:hover {
+  background-color: #f5c1ea;
+  border-width: 1px;
+  border-color: #69154a;
+  border-style: solid;
+  
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+/*Gallery*/
+
+.gallerythumbnail {
+  width: auto;
+  height: 90%;
+  display: block;
+  border: #69154a 2px solid;  
+}   
+
+
+.gallery:hover {
+  transform: scale(1.1);
+  
+}
+
+.gallery {
+  margin: 40px;
+  width: 180px;
+  height: 180px;
+  display: inline-block;    
+}
+
+.imgdesc {
+  text-align: center;
+}
+
+.footer  {
+  position: absolute;
+  bottom: 0px;
+  right: 20px;
+  float: bottom;
+  font-weight: bold;
+}
+

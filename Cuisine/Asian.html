@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+ 
+    <head>
+        <link rel="stylesheet" href="../CSS/VCIndex.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+        <link href="https://fonts.googleapis.com/css2?family=Inspiration&display=swap" rel="stylesheet">
+
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500" rel="stylesheet">
+
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"> 
+
+      
+        <title>Valli Cooking</title>
+    </head>
+
+    
+<body>
+
+  <script>
+  async function includeHTML() {
+    const includes = document.getElementsByTagName('include');
+    [].forEach.call(includes, include => {
+      let filePath = include.getAttribute('src');
+      fetch(filePath).then((file) => {
+        file.text().then((content) => {
+          include.insertAdjacentHTML('afterend', content);
+          include.remove();
+        });
+      });
+    });
+  };
+  </script>
+
+    <div class="header">
+        <h1>Asian</h1>
+      
+    </div>
+
+    
+    <include src="../HTML/nav.html"></include>
+    <br>
+    <br>
+
+
+    <p>
+        <h2>Page construction in progress: check back soon!</h2>
+    
+    
+
+</div>
+<div class="footer">Copyright Anya Valli 2022</div>
+
+
+</body>
+</html>

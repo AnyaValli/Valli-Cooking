@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <headContent-component></headContent-component>
+        
+        <script src="../Components/navbar.js"></script>
+    
+        <script src="../Components/headcontent.js"></script>
+    
+        <link rel="stylesheet" href="../CSS/VCstyle.css">
+        
+        <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    
+    </head>
+
+
+    <header>
+        <title>Butternut Squash and Sage Risotto</title>
+    </header>
+
+    
+    <body>
+        <navbar-component></navbar-component>
+
+        <h1>Butternut Squash and Sage Risotto</h1>
+        <p>
+            <img class="pictures" src="../Cooking Pics/Sookieeyes.jpg">
+            <h2>Cook time: 1 hour</h2>
+        </p>
+        
+        <p>
+            <div class="list-headers">
+            <h3>Ingredients</h3>
+            </div>
+            <ul>
+                <li>200g risotto rice</li>
+                <li>200ml white wine</li>
+                <li>1 small-medium butternut squash, peeled and cut into bite-size chunks </li>
+                <li>Olive oil</li>
+                <li>1 bag of sage leaves removed from stems, half chopped, half left whole</li>
+                <li>1 litre vegetable stock</li>
+                <li>50g butter</li>
+                <li>2 onions, finely chopped</li>
+                <li>1 pack chestnut mushrooms</li>
+                <li>1 pack vegan chicken pieces</li>
+                <li>50g vegan parmesan </li>
+                
+               
+            </ul>
+            </div>
+        </p>
+        <p>
+            <div class="list-headers">
+            <h3>Method</h3>
+            </div>
+            <ol>
+                <li id="temp">Toss the squash in 1 tbsp oil together with the chopped sage. Scatter into a shallow roasting tin and roast for 30 mins until brown and soft</li><br>
+                <li>While the squash is roasting, prepare the risotto. Bring the stock to the boil and keep on a low simmer. In a separate pan, melt half the butter over a medium heat. Stir in the onions and cook gently for 5-7 mins until soft but not coloured, stirring occasionally, then add the mushrooms and chicken, cooking for a further ~5 minutes. Stir the rice into the mix until completely coated in the butter, then stir continuously until the rice is shiny and the edges of the grain start to look transparent.</li><br>
+                <li>Pour in the wine and simmer until completely evaporated. Add the stock, a ladleful at a time, and stirring the rice over a low heat for 25-30 mins, until the rice is cooked al dente (with a slightly firm, starchy bite in the middle). The risotto should be creamy and slightly soupy. </li><br>
+                <li>At the same time, gently fry the whole sage leaves in a little olive oil until crisp, then set aside on kitchen paper. When the risotto is just done, stir through half of the butternut squash chunks, then add ¾ of the cheese and remaining butter and leave to rest for a few minutes. Serve the risotto scattered with the whole chunks of squash and the crisp sage leaves, dusted with the rest of the cheese. </li>
+            </ol>
+        </p>
+
+    </body>
+
+    <script type="text/javascript"> 
+
+        //Celsius to Fahrenheit converter, adjust x to recipe Celsius value
+    
+        const x = 220;
+        const Celsius = x;
+        const y = Celsius *(1.8) + 32;
+        console.log(y);
+        const Fahrenheit = Math.round(y/5) * 5;
+        console.log("Set your oven to "+ Celsius + "C/" + Fahrenheit + "F");
+      
+        var celsiustoFahrenheit = document.createTextNode("Set your oven to " + Celsius + "°C/"  + Fahrenheit + "°F. ");
+        temp.prepend(celsiustoFahrenheit);
+        
+        </script>
+
+</html>

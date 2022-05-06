@@ -1,45 +1,32 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inspiration&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500" rel="stylesheet">
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <link rel="stylesheet" href="CSS/VCstyle.css">
-    <meta http-equiv="Pragma" content="no-cache">
+    <head>
+        <headContent-component></headContent-component>
+        
+        <script src="../Components/navbar.js"></script>
     
-
-</head>
+        <script src="../Components/headcontent.js"></script>
+    
+        <link rel="stylesheet" href="../CSS/VCstyle.css">
+        
+        <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    
+    </head>
+    
 
 
     <header>
-        <title><!--Replace with recipe name--></title>
+        <title>Beetroot & Feta Linguine</title>
     </header>
     
-    <div class="topnav">
-        <a href="AllRecipes.html">All Recipes</a>
-        <a href="#news">Elliot's Recipes</a>
-        <a href="#">Anya's Recipes</a>
-        <div class="dropdown">
-          <button class="dropbtn">Cuisine </button>
-          <div class="dropdown-content">
-            <a href="#">Asian</a>
-            <a href="#">Baking</a>
-            <a href="#">Indian</a>
-            <a href="#">Italian</a>
-            <a href="#">Jamaican</a>
-            <a href="#">Mediterranian</a>
-          </div>
-        </div>
-      </div>
+    <navbar-component></navbar-component>
 
     
     <body>
-        <h1><!--Replace with recipe name--></h1>
+        <h1>Beetroot & Feta Linguine</h1>
         <p>
-            <img class="pictures" src="Cooking Pics/Sookieeyes.jpg">
-            <h2>Cook time: <!--Replace with cook time--></h2>
+            <img class="pictures" src="../Cooking Pics/Sookieeyes.jpg">
+            <h2>Cook time: 45 minutes</h2>
         </p>
         
         <p>
@@ -51,13 +38,14 @@
                 <li>2 tablespoons pine-nuts</li>
                 <li>300g linguine, or other pasta of choice</li>
                 <li>100ml plant-based milk of your choice</li>
-                <li>75g créme fraiche</li>
+                <li>100g créme fraiche/greek yoghurt</li>
                 <li>2tbsp olive oil, plus extra for frying</li>
                 <li>1 white onion, dice</li>
                 <li>4 garlic gloves, pelled and minced</li>
                 <li>2tsp dried oregano</li>
+                <li>1sp cayenne pepper</li>
                 <li>50ml white wine</li>
-                <li>Half pack feta cheese, crumbled</li>
+                <li>Half pack vegan feta cheese, crumbled</li>
                 <li>1 lemon, juiced</li>
                 <li>Fresh basil, roughly chopped</li>
                 
@@ -69,12 +57,12 @@
             <h3>Method</h3>
             </div>
             <ol>
-                <li>Firstly, prepare the sauce by putting the beetroot into a blender, pulsing to chop, before adding the greek yoghurt, milk, olive oil, salt, and chilli. Blend all to a smooth paste. </li>
+                <li>Firstly, prepare the sauce by putting the beetroot into a blender, pulsing to chop, before adding the greek yoghurt, milk, olive oil, salt, and seasonings. Blend all to a smooth paste. </li>
                 <li>Toast the pine-nuts in a small frying pan until lightly browned. Pour into a bowl and set aside.</li><br>
                 <li>Bring a large saucepan of water to boil, salt, and add the linguine, cooking for roughly 10 minutes</li><br>
                 <li>Now sauté the onion until soft, then add the garlic and oregano. Pour in the beetroot mixture, along with the white wine. Stir well to combine.</li><br>
                 <li>When the pasta is cooked, drain it, setting around 125ml of the pasta-water to the side. Add the pasta, pasta-water, and drained butterbeans to the frying pan, and mix well until the pasta is cooked. </li><br>
-                <li>Serve garnished with the cooked pine nuts, feta, and fresh basil.</li><br>
+                <li>Serve garnished with the toasted pine nuts, feta, and fresh basil.</li><br>
                 
                
             </ol>
@@ -97,5 +85,9 @@
         temp.prepend(celsiustoFahrenheit);
         
         </script>
+
+
+<!--Add CSS styling-->
+<div class="footer">Copyright Anya Valli 2022</div>
 
 </html>

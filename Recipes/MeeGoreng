@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <headContent-component></headContent-component>
+
+    <script src="../Components/navbar.js"></script>
+
+    <script src="../Components/headcontent.js"></script>
+
+    <link rel="stylesheet" href="../CSS/VCstyle.css">
+    
+</head>
+
+
+    <header>
+        <title>Mee Goreng</title>
+    </header>
+    
+    <navbar-component></navbar-component>
+    
+    <body>
+        <h1>Me Goreng</h1>
+        <p>
+            <img class="pictures" src="../Cooking Pics/Placeholder.jpg">
+            <h2>Cook time: 90 minutes (+ previous evening prep)</h2>
+        </p>
+        
+        <p>
+            <div class="list-headers">
+            <h3>Ingredients</h3>
+            </div>
+            <ul>
+                <li>150g wholeweat noodles</li>
+                <li>280g firm tofu</li>
+                <li>10 spring onions, finely chopped</li>
+                <li>2 bird's eye chillis</li>
+                <li>3 garlic gloves</li>
+                <li>1 red cabbage, finely shredded</li>
+                <li>1 large carrot, cut into matchsticks</li>
+                <li>1 tbsp dark soy sauce</li>
+                <li>1 tbsp tomato puree</li>
+                <li>1.5 tbsp kicap manis</li>
+                <li>1 tsp salt</li>
+                <li>1/4 tsp MSG</li>
+                <li>1 bag fresh beansprouts</li>
+                <li>Handful of fried shallots</li>
+                <li>1 lime, quartered</li>
+                <li>Rapeseed oil</li>
+               
+            </ul>
+            </div>
+        </p>
+        <p>
+            <div class="list-headers">
+            <h3>Method</h3>
+            </div>
+            <ol>
+                <li>The night before cooking, press the tofu to remove excess water. Marinate overnight in soysauce, rice wine, seasoning, and rice vinegar. Also prepare the shallots by cutting into discs before frying in oil until crisp</li><br>
+                <li>The next day, begin by cooking the noodles in a pot of boiling water as per the packet instructions. When ready, drain and immediately toss with oil to prevent them sticking together.</li><br>
+                <li>Put three tablespoons of oil in large, nonstick frying pan over a medium to high heat and, when hot, add the spring onion whites and greens. Cook for three minutes until softened and wilted, then add the chillies and garlic, and cook for another three minutes. </li><br>
+                <li>Add the carrot and cabbage, and stir-fry for five minutes, shuffling everything around the pan until the carrots and cabbage become bendy and pliable.</li><br>
+                <li>Stir in the shredded tofu, then the soy sauce, tomato puree, kecap manis and salt. Bit by bit, add a handful of the cooked noodles and the beansprouts, and mix and toss, mix and toss, until the vegetables and noodles have integrated.</li><br>
+                <li>Transfer to two plates, top with some crisp onions and a generous squeeze of lime, and serve hot.</li><br>
+               
+            </ol>
+        </p>
+
+    </body>
+
+    <script> 
+
+        //Celsius to Fahrenheit converter, adjust x to recipe Celsius value
+    
+        const x = //CHANGEME;
+        const Celsius = x;
+        const y = Celsius *(1.8) + 32;
+        console.log(y);
+        const Fahrenheit = Math.round(y/5) * 5;
+        console.log("Set your oven to "+ Celsius + "C/" + Fahrenheit + "F");
+      
+        var celsiustoFahrenheit = document.createTextNode("Set your oven to " + Celsius + "°C/"  + Fahrenheit + "°F. ");
+        temp.prepend(celsiustoFahrenheit);
+        
+        </script>
+
+</html>

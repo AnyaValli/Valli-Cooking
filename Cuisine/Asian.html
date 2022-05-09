@@ -15,26 +15,11 @@
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8"> 
 
       
-        <title>Valli Cooking</title>
+        <title>Valli Cooking: Asian</title>
     </head>
 
     
 <body>
-
-  <script>
-  async function includeHTML() {
-    const includes = document.getElementsByTagName('include');
-    [].forEach.call(includes, include => {
-      let filePath = include.getAttribute('src');
-      fetch(filePath).then((file) => {
-        file.text().then((content) => {
-          include.insertAdjacentHTML('afterend', content);
-          include.remove();
-        });
-      });
-    });
-  };
-  </script>
 
     <div class="header">
         <h1>Asian</h1>
@@ -42,9 +27,24 @@
     </div>
 
     
-    <include src="../HTML/nav.html"></include>
-    <br>
-    <br>
+    <div class="topnav">
+      <a href="../index.html">Home</a>
+      <a href="../AllRecipes.html">All Recipes</a>
+      <a href="../ElliotsRecipes.html">Elliot's Recipes</a>
+      <a href="../AnyasRecipes.html">Anya's Recipes</a>
+      <div class="dropdown">
+        <button class="dropbtn">Cuisine </button>
+        <div class="dropdown-content">
+          <a href="Baking.html">Baking</a>
+          <a href="Indian.html">Indian</a>
+          <a href="Italian.html">Italian</a>
+          <a href="Jamaican.html">Jamaican</a>
+          <a href="Mediterranian.html">Mediterranian</a>
+        </div>
+      </div>
+    </div>
+  <br>
+  <br>
 
 
     <p>

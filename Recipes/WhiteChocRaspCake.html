@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <headContent-component></headContent-component>
+        
+        <script src="../Components/navbar.js"></script>
+    
+        <script src="../Components/headcontent.js"></script>
+    
+        <link rel="stylesheet" href="../CSS/VCstyle.css">
+        
+        <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    
+    </head>
+
+
+    <header>
+        <title>White Chocolate & Raspberry Cake</title>
+    </header>
+
+    <body>
+        
+        <navbar-component></navbar-component>
+
+        <h1>White Chocolate & Raspberry Cake</h1>
+        <p>
+            <img class="pictures" src="../Cooking Pics/Placeholder.jpg">
+            <h2>Cook time: 90 mins</h2>
+        </p>
+        
+        <p>
+            <div class="list-headers">
+            <h3>Cake Batter Ingredients</h3>
+            </div>
+            <ul>
+                <li>240ml oat milk, room temperature</li> 
+                <li>200g granulated sugar</li>
+                <li>170g salted butter, room temperature</li>
+                <li>190g applesauce, room temperature</li>
+                <li>2 tsp apple cider vinegar</li>
+               <li>55g white chocolate, melted + cooled to room temperature</li>
+               <li>340g fresh raspberries + 2 tbsp flour</li>
+               <li>460g all-purpose flour</li>
+               <li>2 tsp baking powder</li>
+               <li>1 tsp baking soda</li>
+               <li>1 tbsp vanilla extract</li>
+               
+            </ul>
+            </div>
+       
+
+        
+            <div class="list-headers">
+            <h3> White Chocolate Buttercream Ingredients</h3>
+            </div>
+            <ul>
+                <li>225g  butter, room temperature</li>
+                <li>500g powdered sugar, sifted</li>
+                <li>55g  white chocolate, melted and cooled</li>
+            </ul>
+            </div>
+        </p>
+
+        <p>
+            <div class="list-headers">
+            <h3>Drip Ingredients</h3>
+            </div>
+            <ul>
+                <li>60mg heavy cream</li>
+                <li>175g white chocolate</li>
+                <li>Gel food colouring</li>
+            </ul>
+            </div>
+
+        <p>
+            <div class="list-headers">
+            <h3>Cake Method</h3>
+            </div>
+            <ol>
+                <li>Preheat the oven to 180C. Grease three 6″ cake pans with cooking oil, and line them with parchment paper. Set aside.</li><br>
+                <li>Prepare the vegan buttermilk by combining the dairy free milk with the apple cider vinegar, and set aside to sit for 5-6 minutes. </li><br>
+                <li>Melt & set aside the vegan white chocolate to cool, and in a small or medium bowl, toss the raspberries with the 2 tablespoons of flour. </li><br>
+                <li>In a medium bowl, whisk together the flour, baking powder, and baking soda. Set aside.</li><br>
+                <li>In a stand mixer with paddle attachment or a large bowl with hand mixer, cream together the vegan butter and sugar until fluffy, about 2-3 minutes, before adding in the applesauce, melted vegan white chocolate and vanilla extract. Mix again on medium speed until combined, scraping down the sides and at the bottom of the bowl as needed.</li><br>
+                <li>Add in about half of the dry mixture, along with half of the vegan buttermilk, and mix on medium speed until just combined, before adding the remaining dry mixture and vegan buttermilk, mixing on medium speed until there are just no more dry streaks. </li><br>
+                <li>Remove the bowl from the stand mixer if using one and gently fold in the raspberries using a spatula. </li><br>
+                <li>Divide the batter between the three cake pans evenly, and bake for 45 minutes in 6″ cake pans, or until the toothpick comes out clean. (for three 8″ cake pans, bake for 35-40)</li><br>
+                <li>Remove from the oven and allow the cakes to cool in their pans for 10 minutes, then transfer them to a cooling rack to cool completely. Once cooled completely with absolutely no warmth to the touch, then you can prepare your white chocolate buttercream.<br></li>
+
+            </ol>
+        </p>
+
+        <p>
+            <div class="list-headers">
+            <h3>Buttercream Method</h3>
+            </div>
+            <ol>
+                <li>When ready to frost the cakes, make sure the additional white chocolate is melted and cooled. Add vegan butter to a large bowl or stand mixer and cream for 2-3 minutes.</li><br>
+                <li>Add in 1 cup of powdered sugar at a time, continuing the beat the mixture until it's a thick buttercream.</li><br>
+                <li>Add in vanilla and white chocolate, and continue to beat until desired texture.</li><br>
+                <li>Frost cake with buttercream, before preparing the drip</li><br>
+
+            </ol>
+        </p>
+
+        <p>
+            <div class="list-headers">
+            <h3>Drip Method</h3>
+            </div>
+            <ol>
+                <li>Heat heavy cream in a heat proof bowl in the microwave for 45 seconds, until it's steaming and just beginning to bubble.</li><br>
+                <li>Gently pour white chocolate chips into the heavy cream, making sure they are fully covered with cream. Allow mixture to sit for 1 minute.</li><br>
+                <li>Stir slowly until the cream and white chocolate are combined. Some bits of chocolate may not be fully melted yet. Heat the mixture again for 20 seconds, and stir. Repeat as necessary until all the chocolate bits are fully melted and incorporated.</li><br>
+                <li>Once the ganache is smooth, mix in the gel food coloring until the ganache is evenly colored. If you plan to use a plastic bottle to add your drips, pour the mixture into a plastic bottle.</li><br>
+                <li>Allow the mixture to cool until the desired viscosity is reached (barely warm to the touch). If it seems too thin or thick, you can add a touch more chocolate chips or heavy cream! The type of cream and white chocolate that you use can affect the consistency, so feel free to adjust as needed.</li><br>
+
+            </ol>
+        </p>
+
+        <script> 
+            //Celsius to Fahrenheit converter, adjust x to recipe Celsius value
+        
+            const x = 180;
+            const Celsius = x;
+            const y = Celsius *(1.8) + 32;
+            console.log(y);
+            const Fahrenheit = Math.round(y/5) * 5;
+            console.log("Set your oven to "+ Celsius + "C/" + Fahrenheit + "F");
+          
+            var celsiustoFahrenheit = document.createTextNode("Set your oven to " + Celsius + "°C/"  + Fahrenheit + "°F. ");
+            temp.prepend(celsiustoFahrenheit);
+            
+            </script>
+    </body>
+</html>

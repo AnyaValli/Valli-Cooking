@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <headContent-component></headContent-component>
+
+    <script src="../Components/navbar.js"></script>
+
+    <script src="../Components/headcontent.js"></script>
+
+    <link rel="stylesheet" href="../CSS/VCstyle.css">
+    
+</head>
+
+
+    <header>
+        <title>Thai Green Curry</title>
+    </header>
+    
+    <navbar-component></navbar-component>
+    
+    <body>
+        <h1>Thai Green Curry</h1>
+        <p>
+            <img class="pictures" src="../Cooking Pics/Sookieeyes.jpg">
+            <h2>Cook time: 50 minutes</h2>
+        </p>
+        
+        <p>
+            <div class="list-headers">
+            <h3>Ingredients</h3>
+            </div>
+            <ul>
+                <li>2 tsp olive oil</li>
+                <li>1 serving green curry paste</li>
+                <li>1 red onion, chopped</li>
+                <li>4 cloves garlic, minced</li>
+                <li>1 pack tenderstem broccoli, steamed in microwave</li>
+                <li>1 red bell pepper, chopped into strips</li>
+                <li>1 aubergine, cubed</li>
+                <li>2 carrots, cut into strips</li>
+                <li>Soy sauce and black pepper to taste</li>
+                <li>1 can coconut milk</li>
+                <li>1sp brown sugar</li>
+                <li>Tofu or vegan chicken pieces</li>
+               
+            </ul>
+            </div>
+        </p>
+        <p>
+            <div class="list-headers">
+            <h3>Method</h3>
+            </div>
+            <ol>
+                <li>If using tofu, drain, press, chop into cubes. Fry in airfryer until crispy</li><br>
+                <li>In a pan over medium high heat, heat 1 tablespoon of the  oil. Fry the curry paste for two minutes, before adding ther chopped onion. Cook until translucent.</li><br>
+                <li>Add in the garlic, stir together, then the second tablespoon of  oil, then add the broccoli, red bell pepper, green bell pepper, carrots and aubergine. Season to taste.<li><br>
+                <li>Reduce heat to medium and cook down, stirring, until carrots are tender crisp, about 10-15 minutes.</li><br>
+
+            </ol>
+        </p>
+
+    </body>
+
+    <script> 
+
+        //Celsius to Fahrenheit converter, adjust x to recipe Celsius value
+    
+        const x = //CHANGEME;
+        const Celsius = x;
+        const y = Celsius *(1.8) + 32;
+        console.log(y);
+        const Fahrenheit = Math.round(y/5) * 5;
+        console.log("Set your oven to "+ Celsius + "C/" + Fahrenheit + "F");
+      
+        var celsiustoFahrenheit = document.createTextNode("Set your oven to " + Celsius + "°C/"  + Fahrenheit + "°F. ");
+        temp.prepend(celsiustoFahrenheit);
+        
+        </script>
+
+</html>

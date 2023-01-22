@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <headContent-component></headContent-component>
+
+    <script src="../Components/navbar.js"></script>
+
+    <script src="../Components/headcontent.js"></script>
+
+    <link rel="stylesheet" href="../CSS/VCstyle.css">
+    
+</head>
+
+
+    <header>
+        <title>Chickpea and Kale Red Thai Curry</title>
+    </header>
+    
+    <navbar-component></navbar-component>
+    
+    <body>
+        <h1>Chickpea and Kale Red Thai Curry</h1>
+        <p>
+            <img class="pictures" src="../Cooking Pics/Sookieeyes.jpg">
+            <h2>Cook time: 45 minutes</h2>
+        </p>
+        
+        <p>
+            <div class="list-headers">
+            <h3>Ingredients</h3>
+            </div>
+            <ul>
+                <li>1 large onion</li>
+                <li>5 cloves garlic, minced</li>
+                <li>3 tsp ground ginger</li>
+                <li>250g chickpeas, soaked overnight and drained</li>
+                <li>1 can coconut milk</li>
+                <li>200g shredded carrots</li>
+                <li>1 bag kale, torn into pieces with stems removed</li>
+                <li>Soy sauce and pepper to taste</li>
+                <li>1 lime, juiced</li>
+                <li>1 serving red thai curry paste</li>
+                <li>1sp brown sugar</li>
+                <li>Corriander, freshly chopped</li>
+                <li>Bunch spring onions finely chopped to garnish</li>
+                <li>75g jasmine rice per person</li>
+               
+            </ul>
+            </div>
+        </p>
+        <p>
+            <div class="list-headers">
+            <h3>Method</h3>
+            </div>
+            <ol>
+                <li>To a large skillet, add the oil, onion, and sauté over medium-high heat until the onion begins to soften about 5 minutes; stir intermittently.</li><br>
+                <li>Add the garlic, ginger, coriander, and cook for about 1 minute, or until fragrant; stir frequently.</li><br>
+                <li> Add the chickpeas, coconut milk, carrots, Thai curry paste, salt, pepper, and stir to combine. Reduce the heat to medium, and allow mixture to gently boil for about 5 minutes, or until liquid volume has reduced and thickened somewhat.</li><br>
+                <li>Add the kale and cover the skillet with a lid to encourage the kale to wilt, about 1 to 2 minutes. Stir to incorporate the kale.</li><br>
+                <li> Add the lime juice, optional brown sugar, and stir to combine. Taste and if desired, add additional curry paste, salt, pepper, etc. to taste.</li><br>
+                <li> Evenly sprinkle with the corriander, green onions, and serve immediately over rice. Don't forget to take a picture!</li><br>
+               
+            </ol>
+        </p>
+
+    </body>
+
+    <script> 
+
+        //Celsius to Fahrenheit converter, adjust x to recipe Celsius value
+    
+        const x = //CHANGEME;
+        const Celsius = x;
+        const y = Celsius *(1.8) + 32;
+        console.log(y);
+        const Fahrenheit = Math.round(y/5) * 5;
+        console.log("Set your oven to "+ Celsius + "C/" + Fahrenheit + "F");
+      
+        var celsiustoFahrenheit = document.createTextNode("Set your oven to " + Celsius + "°C/"  + Fahrenheit + "°F. ");
+        temp.prepend(celsiustoFahrenheit);
+        
+        </script>
+
+</html>

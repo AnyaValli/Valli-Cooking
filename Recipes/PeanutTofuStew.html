@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <headContent-component></headContent-component>
+
+    <script src="../Components/navbar.js"></script>
+
+    <script src="../Components/headcontent.js"></script>
+
+    <link rel="stylesheet" href="../CSS/VCstyle.css">
+    
+</head>
+
+
+    <header>
+        <title>Peanut Tofu Stew</title>
+    </header>
+    
+    <navbar-component></navbar-component>
+    
+    <body>
+        <h1>Peanut Tofu Stew</h1>
+        <p>
+            <img class="pictures" src="../Cooking Pics/Sookieeyes.jpg">
+            <h2>Cook time: 1 hour</h2>
+        </p>
+        
+        <p>
+            <div class="list-headers">
+            <h3>Ingredients</h3>
+            </div>
+            <ul>
+                <li>1 block extra firm tofu</li>
+                <li>1 brown onion</li>
+                <li>5 cloves garlic</li>
+                <li>2 tbsp ground corriander</li>
+                <li>1 tsp cumin </li>
+                <li>1 tsp ginger</li>
+                <li>1 green chilli pepper</li>
+                <li>1 aubergine, diced</li>
+                <li>1 large sweet potato, diced</li>
+                <li>2 tsp tomato paste</li>
+                <li>150g peanut butter</li>
+                <li>1tsp paprika</li>
+                <li>3-4 tbsp harrisa</li>
+                <li>salt and pepper to taste</li>
+                <li>500ml vegetable stock</li>
+               
+            </ul>
+            </div>
+        </p>
+        <p>
+            <div class="list-headers">
+            <h3>Method</h3>
+            </div>
+            <ol>
+                <li>Drain and press the tofu, ideally the night before, slice into cubes, and marinate in soy, ginger, and parpika overnight.</li>
+                <li>Cook tofu in the airfryer until frispy (180C for 15-20 mins in oven)</li><br>
+                <li>Next saute the onion & garlic in a saute pan with a little water/oil on a medium-high heat setting for 3 minutes, until the onion is soft and see-through.</li><br>
+                <li>Now stir in all the spices, cook for 1 minute until fragrant.</li><br>
+                <li>Stir in the tomato puree and tomato paste. Mix and cook 2-3 minutes.</li><br>
+                <li>Add paprika and peanut butter and mix them in.</li><br>
+                <li>Add all the vegetables along with vegetable broth. Mix and bring the stew to a boil. Cover and cook 20-25 minutes or until the vegetables are tender. You can add more stock if you wish to thin out the stew.</li><br>
+                <li>Stir in the harissa, simmer for 2 more minutes, before serving over jasmine rice, garnished with corriander</li>
+               
+            </ol>
+        </p>
+
+    </body>
+
+    <script> 
+
+        //Celsius to Fahrenheit converter, adjust x to recipe Celsius value
+    
+        const x = //CHANGEME;
+        const Celsius = x;
+        const y = Celsius *(1.8) + 32;
+        console.log(y);
+        const Fahrenheit = Math.round(y/5) * 5;
+        console.log("Set your oven to "+ Celsius + "C/" + Fahrenheit + "F");
+      
+        var celsiustoFahrenheit = document.createTextNode("Set your oven to " + Celsius + "°C/"  + Fahrenheit + "°F. ");
+        temp.prepend(celsiustoFahrenheit);
+        
+        </script>
+
+</html>

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <headContent-component></headContent-component>
+
+    <script src="../Components/navbar.js"></script>
+
+    <script src="../Components/headcontent.js"></script>
+
+    <link rel="stylesheet" href="../CSS/VCstyle.css">
+    
+</head>
+
+
+    <header>
+        <title>Haggis Neeps & Tatties, for Burns Night - 25th January</title>
+    </header>
+    
+    <navbar-component></navbar-component>
+    
+    <body>
+        <h1>Haggis Neeps & Tatties, for Burns Night - 25th January</h1>
+        <p>
+            <img class="pictures" src="../Cooking Pics/Sookieeyes.jpg">
+            <h2>Cook time: 45 minutes</h2>
+        </p>
+        
+        <p>
+            <div class="list-headers">
+            <h3>Main Ingredients</h3>
+            </div>
+            <ul>
+                <li>Premade vegan haggis</li>
+                <li>800g potatoes</li>
+                <li>800g swede</li>
+                <li>Milk and butter for mashing</li>
+                <li>1tbsp nutritional yeast</li>
+                <li>Salt & pepper</li>
+               
+            </ul>
+            </div>
+        </p>
+
+        <p>
+            <div class="list-headers">
+            <h3>Whiskey Sauce Ingredients</h3>
+            </div>
+            <ul>
+                <li>4 shallots, finely chopped</li>
+                <li>300ml double cream</li>
+                <li>100ml good whisky</li>
+                <li>2 garlic cloves, crushed</li>
+                <li>1 bay leaf</li>
+                <li>2 tsp olive oil</li>
+                <li>10g butter</li>
+                <li>Salt & pepper to taste</li>
+               
+            </ul>
+            </div>
+        </p>
+
+        <p>
+            <div class="list-headers">
+            <h3>Haggis, Neeps and Tatties Method</h3>
+            </div>
+            <ol>
+                <li>Peel and dice the swede and the potatoes. Boil the potatoes for around 20 minutes, and the swede for around 30 minutes, each in lightly salted water</li><br>
+                <li>While the vegetables cook, prepare the whiskey sauce as per below.</li><br>
+                <li>Cook the haggis as per the package instructions</li><br>
+                <li>Once the veg is cooked soft, drain the water from each, before mashing with butter, cream, and any other seasonings.</li><br>
+                <li>Serve out the mashed swede, potatoes, haggis, and top with whiskey gravy.</li><br>
+                <li>Don't forget to take a picture!</li><br>
+            </ol>
+        </p>
+
+        <p>
+            <div class="list-headers">
+            <h3>Whiskey Sauce Method</h3>
+            </div>
+            <ol>
+                <li>Heat the butter and oil in a small pan over a medium heat until the butter starts to foam. Fry the shallot until soft but not golden, about 8 mins.</li><br>
+                <li>Add the bay leaf and garlic, then cook for 1 min more. Add 100ml whisky and simmer until absorbed by the shallots, and almost evaporated.</li><br>
+                <li> Stir in the cream and simmer for another 5 mins until thickened slightly. Season with salt and taste the sauce. Stir in the remaining whisky for a stronger flavour. </li><br>
+                
+               
+            </ol>
+        </p>
+
+    </body>
+
+    <script> 
+
+        //Celsius to Fahrenheit converter, adjust x to recipe Celsius value
+    
+        const x = //CHANGEME;
+        const Celsius = x;
+        const y = Celsius *(1.8) + 32;
+        console.log(y);
+        const Fahrenheit = Math.round(y/5) * 5;
+        console.log("Set your oven to "+ Celsius + "C/" + Fahrenheit + "F");
+      
+        var celsiustoFahrenheit = document.createTextNode("Set your oven to " + Celsius + "°C/"  + Fahrenheit + "°F. ");
+        temp.prepend(celsiustoFahrenheit);
+        
+        </script>
+
+</html>

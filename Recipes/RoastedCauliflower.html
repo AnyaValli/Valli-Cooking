@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <headContent-component></headContent-component>
+
+    <script src="../Components/navbar.js"></script>
+
+    <script src="../Components/headcontent.js"></script>
+
+    <link rel="stylesheet" href="../CSS/VCstyle.css">
+    
+</head>
+
+
+    <header>
+        <title>Roasted Cauliflower with Braised White Beans & Kale</title>
+    </header>
+    
+    <navbar-component></navbar-component>
+    
+    <body>
+        <h1>Roasted Cauliflower with Braised White Beans & Kale</h1>
+        <p>
+            <img class="pictures" src="../Cooking Pics/Sookieeyes.jpg">
+            <h2>Cook time: <!--Replace with cook time--></h2>
+        </p>
+        
+        <p>
+            <div class="list-headers">
+            <h3>Ingredients</h3>
+            </div>
+            <ul>
+                <li>1 head of caulifower, leaves removed</li>
+                <li>50g butter, melted</li>
+                <li>2tbsp olive oil</li>
+                <li>1tbsp Italian seasonings</li>
+                <li>1/2 tsp dried parsley</li>
+                <li>4 cloves garlic, minced, divided in half</li>
+                <li>2tbsp nutritional yeast</li>
+                <li>vegan parmesan cheese</li>
+                <li>1 onion, finely chopped</li>
+                <li>1 tsp dried thyme</li>
+                <li>1 bag kale, stems removed</li>
+                <li>1 can cannellini beans</li>
+                <li>1 can coconut milk</li>
+                <li>120ml vegetable stock</li>
+                <li>1 bay leaf</li>
+                <li>chilli flakes to taste</li>
+                
+               
+            </ul>
+            </div>
+        </p>
+        <p>
+            <div class="list-headers">
+            <h3>Method</h3>
+            </div>
+            <ol>
+                <li>Preheat oven to 205°C. Cut and remove the leaves from the head of cauliflower. Cut and remove the thick white stalk at the base of the head of cauliflower. </li><br>
+                <li>In a small bowl whisk together the butter, oil, Italian seasonings, parsley and garlic. Place cauliflower head upside down in an oven safe dish/skillet/dutch oven. Brush half the herb sauce onto the cauliflower allowing some to drip into the crevices, then season with salt and pepper. Turn over and brush the remaining mixture over the cauliflower to coat well. Season with salt & pepper.</li><br>
+                <li>Cover cauliflower head with aluminum foil and cook in preheated oven for 30 minutes. Remove foil and cook for an additional 20 minutes. Turn the oven broiler to high and broil for 3 minutes or until golden brown. </li><br>
+                <li> While the cauliflower roasting, prepare kale and beans by heating a large skillet over medium-high heat, with 2 tsp olive oil.  Saute onion and garlic until onions are translucent, about 4 to 5 minutes. Add coconut milk, bouillon concentrate, 1/2 cup water, thyme and bay leaf. Bring to a low boil. Stir in the cannellini beans and kale. Cover until kale wilted then stir until coated. Reduce heat to medium low and simmer until the mixture thickens, about 8 to 10 minutes. Season to taste with salt and pepper.</li><br>
+                <li>Transfer kale and beans to a plate. Sprinkle with chili flakes (optional). Top with whole roasted cauliflower in the center. Sprinkle with grated vegan parmesan cheese. To serve, cut cauliflower into quarters.</li><br>
+                <li>Don't forget to take a picture!</li><br> 
+            </ol>
+        </p>
+
+    </body>
+
+    <script> 
+
+        //Celsius to Fahrenheit converter, adjust x to recipe Celsius value
+    
+        const x = //CHANGEME;
+        const Celsius = x;
+        const y = Celsius *(1.8) + 32;
+        console.log(y);
+        const Fahrenheit = Math.round(y/5) * 5;
+        console.log("Set your oven to "+ Celsius + "C/" + Fahrenheit + "F");
+      
+        var celsiustoFahrenheit = document.createTextNode("Set your oven to " + Celsius + "°C/"  + Fahrenheit + "°F. ");
+        temp.prepend(celsiustoFahrenheit);
+        
+        </script>
+
+</html>

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <headContent-component></headContent-component>
+
+    <script src="../Components/navbar.js"></script>
+
+    <script src="../Components/headcontent.js"></script>
+
+    <link rel="stylesheet" href="../CSS/VCstyle.css">
+    
+</head>
+
+
+    <header>
+        <title>Chickpea Curry</title>
+    </header>
+    
+    <navbar-component></navbar-component>
+    
+    <body>
+        <h1>Chickpea Curry</h1>
+        <p>
+            <img class="pictures" src="../Cooking Pics/Sookieeyes.jpg">
+            <h2>Cook time: 90 minutes </h2>
+        </p>
+        
+        <p>
+            <div class="list-headers">
+            <h3>Ingredients</h3>
+            </div>
+            <ul>
+                <li>250g dried chickpeas, rinsed and soaked overnight</li>
+                <li>1 chilli</li>
+                <li>1tsp vegetable oil</li>
+                <li>1tsp cumin seeds</li>
+                <li>1 bay leaf</li>
+                <li>2 springs curry leaves (can sub with curry powder)</li>
+                <li>1 large onion, diced</li>
+                <li>1 stick cinnamon</li>
+                <li>3 cardamom seeds (can sub with 0.5tsp allspice</li>
+                <li>5 cloves (can sub with ground)</li>
+                <li>0.5 tsp tumeric</li>
+                <li>2tbsp ginger</li>
+                <li>1tbsp garam masala</li>
+                <li>1 tin diced tomatoes</li>
+                <li>1 can coconut milk</li>
+                <li>120ml water</li>
+                <li>Corriander to garnish</li>
+                <li>Salt to taste</li>
+               
+            </ul>
+            </div>
+        </p>
+        <p>
+            <div class="list-headers">
+            <h3>Method</h3>
+            </div>
+            <ol>
+                <li>Rinse and soak the chickpeas overnight. Slow cook for 90 minutes or until tender.</li>
+                <li>Add oil to a large saute pan and heat over medium high heat. Add in cloves, bay leaf, cinnamon stick and green cardamom. Heat 1-2 minutes or until fragrant. Keep an eye on them so they do not burn.</li><br>
+                <li>Add onion and salt and cook over medium heat until golden brown and caramelized, about 5-6 minutes.</li><br>
+                <li>Next add in turmeric, cumin, garam masala, curry leaves and diced tomato. Cook tomatoes down to a thick paste over medium heat, about 15 minutes.</li><br>
+                <li>Add water, coconut milk, chick peas. Bring to a boil then simmer for 5 minutes.</li><br>
+                <li>Take off of the heat and add in the fresh cilantro. DON'T FORGET TO TAKE A PICTURE!!!</li><br>
+                
+               
+            </ol>
+        </p>
+
+    </body>
+
+    <script> 
+
+        //Celsius to Fahrenheit converter, adjust x to recipe Celsius value
+    
+        const x = //CHANGEME;
+        const Celsius = x;
+        const y = Celsius *(1.8) + 32;
+        console.log(y);
+        const Fahrenheit = Math.round(y/5) * 5;
+        console.log("Set your oven to "+ Celsius + "C/" + Fahrenheit + "F");
+      
+        var celsiustoFahrenheit = document.createTextNode("Set your oven to " + Celsius + "°C/"  + Fahrenheit + "°F. ");
+        temp.prepend(celsiustoFahrenheit);
+        
+        </script>
+
+</html>

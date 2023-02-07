@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <headContent-component></headContent-component>
+
+    <script src="../Components/navbar.js"></script>
+
+    <script src="../Components/headcontent.js"></script>
+
+    <link rel="stylesheet" href="../CSS/VCstyle.css">
+    
+</head>
+
+
+    <header>
+        <title>Parmesan Herb Crusted Tofu</title>
+    </header>
+    
+    <navbar-component></navbar-component>
+    
+    <body>
+        <h1>Parmesan Herb Crusted Tofu</h1>
+        <p>
+            <img class="pictures" src="../Cooking Pics/Sookieeyes.jpg">
+            <h2>Cook time: 1 hour </h2>
+        </p>
+        
+        <p>
+            <div class="list-headers">
+            <h3>Ingredients</h3>
+            </div>
+            <ul>
+                <li>1 block extra firm tofu, pressed</li>
+                <li>240ml milk</li>
+                <li>125g all purpose flour</li>
+                <li>1sp lemon juice</li>
+                <li>2tsp salt</li>
+                <li>125g panko breadcrums</li>
+                <li>3 tbsp nooch</li>
+                <li>1 tsp garlic powder</li>
+                <li>½ tsp dried basil</li>
+                <li>½ tsp dried oregano</li>
+                <li>½ tsp black pepper</li>
+                
+               
+            </ul>
+            </div>
+        </p>
+        <p>
+            <div class="list-headers">
+            <h3>Method</h3>
+            </div>
+            <ol>
+                <li>Press tofu for at least 15 mins. Sprinkle salt beforehand to draw more liquid out</li><br>
+                <li>Get three mixing bowls: <br><br>
+                    <ul>
+                        <li>Bowl 1: Add milk and lemon juice. Whisk to combine. The milk should curdle and thicken a bit</li>
+                        <li>Bowl 2: Add the flour and 1 tsp of salt. Whisk to combine</li>
+                        <li> Bowl 3: Add the panko breadcrumbs, nutritional yeast, garlic powder, basil, oregano and 1 tsp of salt and the pepper. Whisk to combine.</li>
+                    </ul> <br>
+                </li>
+                <li>When the tofu is ready, slice it through the side to make 4 wide “steaks”.</li><br>
+                <li>Place the tofu steaks, one at a time in the flour mixture, coat and shake of excess, then place in the almond milk, coating completely, then back into the flour, then back into the almond milk, then into the panko crumbs. (Bowl order: 2-1-2-1-3)</li><br>
+                <li>Spray the tofu lightly with olive oil to help with browning.</li><br>
+                <li>Air fry the tofu at 190°C for 20 mins, turning halfway through.</li><br>
+                <li> Sprinkle with salt and a squeeze of lemon, then serve with a side of choice.</li>
+               
+            </ol>
+        </p>
+
+    </body>
+
+    <script> 
+
+        //Celsius to Fahrenheit converter, adjust x to recipe Celsius value
+    
+        const x = //CHANGEME;
+        const Celsius = x;
+        const y = Celsius *(1.8) + 32;
+        console.log(y);
+        const Fahrenheit = Math.round(y/5) * 5;
+        console.log("Set your oven to "+ Celsius + "C/" + Fahrenheit + "F");
+      
+        var celsiustoFahrenheit = document.createTextNode("Set your oven to " + Celsius + "°C/"  + Fahrenheit + "°F. ");
+        temp.prepend(celsiustoFahrenheit);
+        
+        </script>
+
+</html>

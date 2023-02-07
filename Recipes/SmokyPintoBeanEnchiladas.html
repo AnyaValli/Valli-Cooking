@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <headContent-component></headContent-component>
+
+    <script src="../Components/navbar.js"></script>
+
+    <script src="../Components/headcontent.js"></script>
+
+    <link rel="stylesheet" href="../CSS/VCstyle.css">
+    
+</head>
+
+
+    <header>
+        <title>Smoky Pinto Bean Enchiladas</title>
+    </header>
+    
+    <navbar-component></navbar-component>
+    
+    <body>
+        <h1>Smoky Pinto Bean Enchiladas</h1>
+        <p>
+            <img class="pictures" src="../Cooking Pics/Sookieeyes.jpg">
+            <h2>Cook time: 90 minutes</h2>
+        </p>
+        
+        <p>
+            <div class="list-headers">
+            <h3>Pinto Bean and Spinich Ingredients</h3>
+            </div>
+            <ul>
+                <li>1 medium white onion, diced</li>
+                <li>5 cloves garlic, minced</li>
+                <li>2 bay leaves</li>
+                <li>200g dry pinto beans, soaked overnight</li>
+                <li>1 tbsp salt</li>
+                <li>1 tbsp smoky paprika</li>
+                <li>1 tbsp cumin</li>
+                <li>1 tsp cayenne pepper</li>
+                <li>1 tbsp soy sauce</li>
+                <li>Pepper, to taste</li>
+               
+            </ul>
+            </div>
+
+            
+        </p>
+
+        <div class="list-headers">
+            <h3> Sauce Ingredients</h3>
+            </div>
+            <ul>
+                <li>1 tbsp tomato paste</li>
+                <li>150ml vegetable stock</li>
+                <li>1 white onion, diced</li>
+                <li>2 cloves garlic, minced</li>
+                <li>1 chilli pepper, roughly chopped</li>
+                <li>1/2 tsp chilli powder</li>
+                <li>1 tsp ground cumim</li>
+                <li>1/2 tsp dried oregano</li>
+                <li>1/2 tsp dried thyme</li>
+                <li>Salt and pepper to taste</li>
+               
+            </ul>
+            </div>
+
+        </p>
+
+        <div class="list-headers">
+            <h3>Enchilada Ingredients</h3>
+            </div>
+            <ul>
+                <li>4 large tortillas</li>
+                <li>1 avocado, diced</li>
+                <li>1 red onion, diced</li>
+                <li>2 green onions, sliced into discs</li>
+                <li>Small bunch corriander, roughly chopped</li>
+                <li>Grated cheese</li>
+               
+            </ul>
+            </div>
+
+        </p>
+
+        <p>
+            <div class="list-headers">
+            <h3>Method</h3>
+            </div>
+            <ol>
+                <li>For the filling,  a medium-sized pot over medium-high heat and add a splash of oil, the onion and the garlic. Sautee until soft then add the soaked and drained pinto beans, bay leaves, ½ teaspoon of salt and enough water to cover. </li><br>
+                <li>Bring to a boil then reduce the heat to medium-low and simmer until the beans are soft - this should take around an hour. Add more water if the beans become too dry.</li><br>
+                <li>When the beans are soft you should still have a bit of water in the pot. Give them a stir and you should start to get a creamy sauce. If not, cook them a bit longer. Remove the bay leaves and stir in the spinach, remaining salt, paprika, cumin, cayenne soy sauce and pepper.    
+                </li><br>
+                <li>For the sauce, combine all ingredients in a blender and puree until smooth. Depending on the thickness of your tomato sauce, you can transfer it to a pan over medium heat to reduce until thickened if desired. </li><br>
+                <li>For the enchiladas, preheat oven to  170°C. Pour about half of the enchilada sauce into the bottom of your baking dish. Fill each tortilla with some of the pinto bean mixture, sprinkle in some cheese and roll it up. Place them seam side down in the baking dish. Once all the enchiladas are filled, pour over the remaining sauce, sprinkle more cheese if desired and bake for 15-20 minutes, or until heated through.  </li><br>
+                <li>Once out of the oven, plate up, and top with avocado, red onion, green onion, and cilantro. </li><br>
+               
+            </ol>
+        </p>
+
+    </body>
+
+    <script> 
+
+        //Celsius to Fahrenheit converter, adjust x to recipe Celsius value
+    
+        const x = //CHANGEME;
+        const Celsius = x;
+        const y = Celsius *(1.8) + 32;
+        console.log(y);
+        const Fahrenheit = Math.round(y/5) * 5;
+        console.log("Set your oven to "+ Celsius + "C/" + Fahrenheit + "F");
+      
+        var celsiustoFahrenheit = document.createTextNode("Set your oven to " + Celsius + "°C/"  + Fahrenheit + "°F. ");
+        temp.prepend(celsiustoFahrenheit);
+        
+        </script>
+
+</html>

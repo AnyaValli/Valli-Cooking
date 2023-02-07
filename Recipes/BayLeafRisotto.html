@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <headContent-component></headContent-component>
+
+    <script src="../Components/navbar.js"></script>
+
+    <script src="../Components/headcontent.js"></script>
+
+    <link rel="stylesheet" href="../CSS/VCstyle.css">
+    
+</head>
+
+
+    <header>
+        <title>Bay Leaf Risotto with Tangerine and Almonds</title>
+    </header>
+    
+    <navbar-component></navbar-component>
+    
+    <body>
+        <h1>Bay Leaf Risotto with Tangerine and Almonds</h1>
+        <p>
+            <img class="pictures" src="../Cooking Pics/Sookieeyes.jpg">
+            <h2>Cook time: 1 hour</h2>
+        </p>
+        
+        <p>
+            <div class="list-headers">
+            <h3>Ingredients</h3>
+            </div>
+            <ul>
+                <li>300g risotto rice</li>
+                <li>Vegan chicken pieces</li>
+                <li>Unsalted butter</li>
+                <li>28g bay leaves</li>
+                <li>Dry white wine</li>
+                <li>Sliced almonds</li>
+                <li>850ml vegetable broth</li>
+                <li>1 tangerine/mandarin</li>
+                <li>1 brown onion, diced</li>
+                <li>White vinegar</li>
+                <li>200ml (185g) sunflower oil</li>
+                <li>1 bag (~80g) parmesan </li>
+               
+            </ul>
+            </div>
+        </p>
+        <p>
+            <div class="list-headers">
+            <h3>Method</h3>
+            </div>
+            <ol>
+                <li>Grate the mandarin and place the zest aside. </li><br>
+                <li>Air fry the almonds until golden.</li><br>
+                <li>Prepare the bay leaf oil, by blending with the sunflower oil. Then boil the mixture in a saucepan for no more than one minute, allowing any residual water contained in the leaves to evaporate - be careful not to burn the bay leaves.</li><br>
+                <li>While this is heating, place a second pan, with a sieve on top in a sink with ice cold water, beuing careful to keep the interior dry.</li><br>
+                <li>Quickly and carefully, pour the oil through the seive into the cooled pan to bring the temperature down. The faster you cool it down, the brighter green the oil will be. Once it's cool enough, filter it again through cheesecloth to remove any residual bay leaf bits. Set aside.</li><br>
+                <li>Next prepare the risotto -  begin by melting a knob of butter on medium heat. At the same time, prepare the vegetable broth/stock. Keep it hot and nearby.</li><br>
+                <li>Stir in a chopped brown onion. Once it's soft, add the rice, stir until the rice is mixed in with the onion and is coated with butter. Add "chicken" pieces if desired.</li><br>
+                <li>Add a couple glugs of wine and stir until absorbed. When fully absorbed, add the stock, a ladelful at a time, until it too is fully absorbed.</li><br>
+                <li>Remove the rice from the heat and mix in the butter, Parmigiano, and bay leaf oil. Cover and let sit for 5 minutes. If too dry, soften it with a little hot broth. Complete with a splash of white vinegar. Serve immediately, topped with grated tangerine rind and sliced almonds. </li><br>
+               
+            </ol>
+        </p>
+
+    </body>
+
+    <script> 
+
+        //Celsius to Fahrenheit converter, adjust x to recipe Celsius value
+    
+        const x = //CHANGEME;
+        const Celsius = x;
+        const y = Celsius *(1.8) + 32;
+        console.log(y);
+        const Fahrenheit = Math.round(y/5) * 5;
+        console.log("Set your oven to "+ Celsius + "C/" + Fahrenheit + "F");
+      
+        var celsiustoFahrenheit = document.createTextNode("Set your oven to " + Celsius + "°C/"  + Fahrenheit + "°F. ");
+        temp.prepend(celsiustoFahrenheit);
+        
+        </script>
+
+</html>

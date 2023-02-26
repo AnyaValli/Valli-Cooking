@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <headContent-component></headContent-component>
+
+    <script src="../Components/navbar.js"></script>
+
+    <script src="../Components/headcontent.js"></script>
+
+    <link rel="stylesheet" href="../CSS/VCstyle.css">
+    
+</head>
+
+
+    <header>
+        <title>Chachouka</title>
+    </header>
+    
+    <navbar-component></navbar-component>
+    
+    <body>
+        <h1>Chachouka</h1>
+        <p>
+            <img class="pictures" src="../Cooking Pics/Chachouka.jpg">
+            <h2>Cook time: 1 hour</h2>
+        </p>
+        
+        <p>
+            <div class="list-headers">
+            <h3>Chachouka</h3>
+            </div>
+            <ul>
+                <li>1 tsp olive oil</li>
+                <li>2 tsp hot paprika</li>
+                <li>2 tsp smoked paprika</li>
+                <li>Pinch of saffron strands</li>
+                <li>1 large red onion, diced</li>
+                <li>3 yellow, red or orange peppers, finely sliced</li>
+                <li>3 garlic gloves, crushed</li>
+                <li>2 chillies, diced</li>
+                <li>1 block feta, cubed</li>
+                <li>400g can of chopped tomatoes</li>
+                <li>1 pack vegetarian mince</li>
+                <li>4 eggs</li>
+                <li>Salt and pepper to taste</li>
+               
+            </ul>
+            </div>
+
+            
+        </p>
+
+        <div class="list-headers">
+            <h3>Egg fried rice</h3>
+            </div>
+            <ul>
+                <li>1 egg</li>
+                <li>1 tbsp sesame oil</li>
+                <li>2 tbsp vegetable/sunflower oil</li>
+                <li>150g brown rice</li>
+                <li>Handful of pea (optional)</li>
+               
+            </ul>
+            </div>
+
+        <p>
+            <div class="list-headers">
+            <h3>Method</h3>
+            </div>
+            <ol>
+                <li>Set the brown rice to cook in the rice cooker</li><br>
+                <li>Peel and crush the garlic on top of the peppers; roughly break apart the mince in the pack; and mix the smoked paprika, hot paprika and saffron strands in a spice bowl, crushing the strands as you go. </li><br>
+                <li>(For the rice) mix the egg in a cup with some salt, pepper and sesame oil. Set aside.</li>
+                <li>In a large, ovenproof pan fry the cumin seeds in olive oil on a medium heat for a couple of minutes.</li><br>
+                <li>Add the onion and cook gently for 5-7 minutes until soft.</li><br>
+                <li>Add the mince and stir in, cooking for another 5-7 minutes.</li><br>
+                <li>Add the garlic and peppers and continue to cook under a low heat for  20 minutes, stirring often, until the peppers are soft and wilted.</li><br>
+                <li>Add the spice mix, stir it in, and then add the tomatoes with some salt and pepper. Cook for 15 minutes, stirring occasionally. Preheat the oven to 180°C.</li><br>
+                <li>Taste the mixture and adjust the seasoning if necessary. Make sure the rice is done and, ideally, cooled. Do not proceed until the rice is cooked at least.</li><br>
+                <li>Take the chachouka off the heat and mix in half of the cubed feta, until it's evenly dispersed but not melted.</li><br>
+                <li>Make hollows in the chachouka according to the number of eggs.  Break the eggs into these hollows, then sprinkle the chillies over the top and add a generous amount of salt and pepper.</li><br>
+                <li>Put the chachouka in the oven and cook for 10-12 minutes, ideally so that the white is set and the yolk is runny.</li><br>
+                <li>While the chachouka is cooking, fry the rice in the vegetable oil on a medium-high heat. Add the peas if you're using them, and get everything hot and crackling, then clear a space in the centre of the pan, turn off the heat and pour in the egg.</li><br>
+                <li>Gently fold the rice into the egg until it's mixed in and the rice has cooked the egg. Once it's cooked, distribute across two plates.</li><br>
+                <li>Once the chachouka is finished, add it to the side of the rice. Don't forget to take a picture!</li><br>
+            </ol>
+        </p>
+
+    </body>
+
+    <script> 
+
+        //Celsius to Fahrenheit converter, adjust x to recipe Celsius value
+    
+        const x = //CHANGEME;
+        const Celsius = x;
+        const y = Celsius *(1.8) + 32;
+        console.log(y);
+        const Fahrenheit = Math.round(y/5) * 5;
+        console.log("Set your oven to "+ Celsius + "C/" + Fahrenheit + "F");
+      
+        var celsiustoFahrenheit = document.createTextNode("Set your oven to " + Celsius + "°C/"  + Fahrenheit + "°F. ");
+        temp.prepend(celsiustoFahrenheit);
+        
+        </script>
+
+</html>

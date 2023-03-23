@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <headContent-component></headContent-component>
+
+    <script src="../Components/navbar.js"></script>
+
+    <script src="../Components/headcontent.js"></script>
+
+    <link rel="stylesheet" href="../CSS/VCstyle.css">
+    
+</head>
+
+
+    <header>
+        <title>Chilli Con Carne</title>
+    </header>
+    
+    <navbar-component></navbar-component>
+    
+    <body>
+        <h1>Chilli Con Carne</h1>
+        <p>
+            <img class="pictures" src="../Cooking Pics/Sookieeyes.jpg">
+            <h2>Cook time: 75 minutes</h2>
+        </p>
+        
+        <p>
+            <div class="list-headers">
+            <h3>Ingredients</h3>
+            </div>
+            <ul>
+                <li>1 large white onion</li>
+                <li>1 red pepper</li>
+                <li>1 yellow pepper</li>
+                <li>4 garlic gloves</li>
+                <li>2 chillies</li>
+                <li> 1tbsp olive oil</li>
+                <li>1 heaped tsp hot chilli powder</li>
+                <li>1 tsp paprika</li>
+                <li>1 tsp ground cumin</li>
+                <li>500g mince</li>
+                <li>1 stock cube</li>
+                <li>400g can chopped tomatoes</li>
+                <li>1 can kidney beans, drained</li>
+                <li>1 tsp sugar</li>
+                <li>2 tbsp tomato purée</li>
+                <li>75g brown rice per person</li>
+
+               
+            </ul>
+            </div>
+        </p>
+        <p>
+            <div class="list-headers">
+            <h3>Method</h3>
+            </div>
+            <ol>
+                <li>Set your rice to cook in your rice cookers, then prepare your vegetables.</li><br>
+                <li>In a large pot on medium heat on the stove, heat the oil and then cook the onion until soft and translucent.</li><br>
+                <li>Add in the garlic, red pepper, 1 heaped tsp hot chilli powder or 1 level tbsp mild chilli powder, 1 tsp paprika and 1 tsp ground cumin. Mix it all together and leave to cook for 5 mins, stirring occasionally.</li><br>
+                <li>Turn up the heat slightly, then add the mince, breaking up with your spatula in the pan. Stir for at least another 5 minutes, until the mince is cooked through.</li><br>
+                <li>Make the stock by crumbling the stock cube into 300ml boiled water. Pour this into the pan.</li><br>
+                <li>Add a 400g can of chopped tomatoes. Tip in ½ tsp dried marjoram, 1 tsp sugar and add a good shake of salt and pepper. Squirt in about 2 tbsp tomato purée and stir the sauce well.</li><br>
+                <li>Bring the mix to a boil, give it a good stir, then put on the lid and reduce the heat down to a simmer, leaving it for at least 20 minutes. Stir occasionally, and add more water if the mix looks to be drying out.</li><br>
+                <li>Next add the kidney beans, stirring them into the mix. Bring to a boil again, then reduce to a simmer for around 10 minutes, without the lid.</li><br>
+                <li>Add salt and pepper to taste, mix in, then replace the lid and turn off the heat.  Leave the chilli to stand for 10 minutes before serving.</li><br>
+                <li>Serve with brown rice, and sour cream if desired.</li><br>
+            </ol>
+        </p>
+
+    </body>
+
+    <script> 
+
+        //Celsius to Fahrenheit converter, adjust x to recipe Celsius value
+    
+        const x = //CHANGEME;
+        const Celsius = x;
+        const y = Celsius *(1.8) + 32;
+        console.log(y);
+        const Fahrenheit = Math.round(y/5) * 5;
+        console.log("Set your oven to "+ Celsius + "C/" + Fahrenheit + "F");
+      
+        var celsiustoFahrenheit = document.createTextNode("Set your oven to " + Celsius + "°C/"  + Fahrenheit + "°F. ");
+        temp.prepend(celsiustoFahrenheit);
+        
+        </script>
+
+</html>

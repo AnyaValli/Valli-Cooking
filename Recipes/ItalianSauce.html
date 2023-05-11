@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <headContent-component></headContent-component>
+
+    <script src="../Components/navbar.js"></script>
+
+    <script src="../Components/headcontent.js"></script>
+
+    <link rel="stylesheet" href="../CSS/VCstyle.css">
+    
+</head>
+
+
+    <header>
+        <title>Authentic Italian Sauce</title>
+    </header>
+    
+    <navbar-component></navbar-component>
+    
+    <body>
+        <h1>Authentic Italian Sauce</h1>
+        <p>
+            <img class="pictures" src="../Cooking Pics/Sookieeyes.jpg">
+            <h2>Cook time: 3 hours</h2>
+        </p>
+        
+        <p>
+            <div class="list-headers">
+            <h3>Ingredients</h3>
+            </div>
+            <ul>
+                <li>1 bulb garlic</li>
+                <li>3 red onions</li>
+                <li>1 red pepper</li>
+                <li>1 orange pepper</li>
+                <li>1 yellow pepper</li>
+                <li>1 aubergine</li>
+                <li>1 box mushrooms</li>
+                <li>1 jar black olives, sliced</li>
+                <li>1 pack vegan bacon</li>
+                <li>500g vegan mince</li>
+                <li>x2 tins plum tomatoes</li>
+                <li>1 jar of sundried tomatoes</li>
+                <li>200ml red wine</li>
+                <li>2 sprigs fresh rosemary</li>
+
+               
+            </ul>
+            </div>
+        </p>
+        <p>
+            <div class="list-headers">
+            <h3>Method</h3>
+            </div>
+            <ol>
+                <li>Peel and crush the garlic and finely chop the onions, peppers and aubergine, slice the olives and mushrooms, pick and finely chop the rosemary, then finely slice the bacon.</li><br>
+                <li>Heat a splash of oil in a large cooking pot on a medium heat, add the bacon, rosemary, garlic, peppers and onion and cook for 5 minutes, or until softened, stirring occasionally</li><br>
+                <li>Add the aubergine, olives & mushrooms. Cook for 2-3 minutes.</li><br>
+                <li>Add the mince, breaking it apart gently, then cook for 2 to 3 minutes, or until starting to brown, then pour in the wine. Leave to bubble and cook away.</li><br>
+                <li>Meanwhile, drain and tip the sun-dried tomatoes into a food processor, blitz to a paste, then add to the pan with the tomatoes. Stir well, break the plum tomatoes apart a little.</li><br>
+                <li>Cover with a lid then leave on a low heat for at least an hour, ideally more, removing the lid and giving it a stir every 30 minutes. If it looks a little dry at this stage, add a splash of water to help it along</li><br>
+                <li>Leave to cool and bag up in ~500-550g bags.</li><br>
+                
+               
+            </ol>
+        </p>
+
+    </body>
+
+    <script> 
+
+        //Celsius to Fahrenheit converter, adjust x to recipe Celsius value
+    
+        const x = //CHANGEME;
+        const Celsius = x;
+        const y = Celsius *(1.8) + 32;
+        console.log(y);
+        const Fahrenheit = Math.round(y/5) * 5;
+        console.log("Set your oven to "+ Celsius + "C/" + Fahrenheit + "F");
+      
+        var celsiustoFahrenheit = document.createTextNode("Set your oven to " + Celsius + "°C/"  + Fahrenheit + "°F. ");
+        temp.prepend(celsiustoFahrenheit);
+        
+        </script>
+
+</html>

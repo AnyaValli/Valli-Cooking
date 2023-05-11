@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <headContent-component></headContent-component>
+
+    <script src="../Components/navbar.js"></script>
+
+    <script src="../Components/headcontent.js"></script>
+
+    <link rel="stylesheet" href="../CSS/VCstyle.css">
+    
+</head>
+
+
+    <header>
+        <title> Chipotle tomatoes with butter beans and cous cous</title>
+    </header>
+    
+    <navbar-component></navbar-component>
+    
+    <body>
+        <h1> Chipotle tomatoes with butter beans and cous cous</h1>
+        <p>
+            <img class="pictures" src="../Cooking Pics/ChipotleCous.jpg">
+            <h2>Cook time: 90 mins</h2>
+        </p>
+        
+        <p>
+            <div class="list-headers">
+            <h3>Ingredients</h3>
+            </div>
+            <ul>
+                <li>3 packs ripe vine tomatoes</li>
+                <li>2 packs chorizo sauces</li>
+                <li>1 jar sliced black olives</li>
+                <li>140ml virgin olive oil</li>
+                <li>4 tbsp chipotle flakes</li>
+                <li>4 tbsp red-wine vinegar</li>
+                <li>4 tsp soft brown sugar</li>
+                <li>180g cous cous (per serving)</li>
+                <li>1 tsp vegetable bouilon</li>
+                <li>3 tins butter beans, drained and rinsed</li>
+                <li>2 bags rocket (1 per serving)</li>
+                <li>1 lemon, juiced</li>
+                <li>Salt to taste</li>
+               
+            </ul>
+            </div>
+        </p>
+        <p>
+            <div class="list-headers">
+            <h3>Method</h3>
+            </div>
+            <ol>
+                <li>Pre fry the chorizo sausages. Once they're crispy on the outside, remove from pan, slice into discs, then fry them again on each side until crisp.</li><br>
+                <li>Pre-heat the oven to 200C. Slice the tomatoes into quarters and place into a large bowl, along with the (drained) jar of olives and chorizo slices</li><br>
+                <li>Add into the bowl the olive oil, vinegar, sugar, and half a teaspoon of salt. Toss to coat evenly.</li><br>
+                <li>Arrange tomatoes et al evenly across on two baking trays, giving them as much room between each as you can, and put the bowl to one side. <b>DO NOT WASH THE BOWL.</b> Put a sieve over it and set to the side. </li><br>
+                <li>Roast for 40 minutes, rotating the trays halfway through to ensure everything cooks evenly, until the tomatoes are glossy and slightly charred. </li><br>
+                <li>5 minutes before the tomatoes are ready, prepare the couscous in a saucepan - add salt, some bouillon, some extra seasoning of choice (paprika and a few strands of saffron work well), then pour in boiling water at a ratio of 1:1.5 (i.e. 270ml water to 180g couscous, although there's no risk to slightly overpouring by 10-20ml) and cover.</li><br>
+                <li>Once the tomatoes are cooked carefully pour them, one tray at a time, into the sieve over the large bowl. Drain until all the flavoured oil ends up in the bowl. Save the first tray's worth of tomatoes et al for following meal. </li><br>
+                <li>Once the second tray has been drained, keep the tomatoes et al that were on it warm however you can. </li><br>
+                <li>Pour the liquid into a blender, then add the butterbeans and a teaspoon of salt. Blitz until it is the texture of hummus. Set aside half for following meal. </li><br>
+                <li>Serve, by fluffing up the cous cous and spreading across both plates. Then spoon on the hummus, add 3/4 of the rocket, add tomatoes et al, then the rest of the rocket. </li><br>
+                <li>Drizzle over with lemon juice and extra virgin olive oil. </li><br>
+
+            </ol>
+        </p>
+
+    </body>
+
+    <script> 
+
+        //Celsius to Fahrenheit converter, adjust x to recipe Celsius value
+    
+        const x = //CHANGEME;
+        const Celsius = x;
+        const y = Celsius *(1.8) + 32;
+        console.log(y);
+        const Fahrenheit = Math.round(y/5) * 5;
+        console.log("Set your oven to "+ Celsius + "C/" + Fahrenheit + "F");
+      
+        var celsiustoFahrenheit = document.createTextNode("Set your oven to " + Celsius + "°C/"  + Fahrenheit + "°F. ");
+        temp.prepend(celsiustoFahrenheit);
+        
+        </script>
+
+</html>
